@@ -2,7 +2,6 @@
 
 A simple implementation of a Calculator in Ruby following TDD using RSpec.
 
----
 
 ## Features
 
@@ -15,14 +14,12 @@ The `Calculator` class implements the following features:
 5. **Custom Delimiters**: Custom delimiter at the beginning (e.g., `//;\n1;2`).
 6. **Negative Numbers**: Throws an exception with all negative numbers.
 
----
 
 ## Requirements
 
 - Ruby 3.x or later
 - RSpec
 
----
 
 ## Installation
 
@@ -31,8 +28,6 @@ Clone the repository:
   git clone https://github.com/kunkudupala/IncubyteCode
   cd IncubyteCode
 ```
-
----
 
 ## Usage
 ### Example Code
@@ -54,7 +49,6 @@ You can use the `Calculator` class as follows
     puts e.message                         # Output: Negative numbers not allowed: -2, -4
   end
 ```
----
 
 ## Tests
 ### Used Rspec as a test framework
@@ -66,8 +60,6 @@ Each test Cases
 - Handles newlines as delimiters.
 - Handles custom delimiters.
 - Raises an error for negative numbers.
-
----
 
 ## Development
 #### TDD Workflow
