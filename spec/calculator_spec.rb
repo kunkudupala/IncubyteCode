@@ -7,5 +7,9 @@ describe "calculator" do
     it "when empty string" do
       expect(c.add("")).to eq(0)
     end
+
+    it 'returns the number itself when only one number is provided' do
+      expect(c.add("5")).to eq(5)
+    end
   end
 end
