@@ -15,5 +15,9 @@ describe "calculator" do
     it 'returns the sum of two numbers' do
       expect(c.add("1,2")).to eq(3)
     end
+
+    it 'returns the sum of multiple numbers' do
+      expect(c.add("1,2,3,4")).to eq(10)
+    end
   end
 end
